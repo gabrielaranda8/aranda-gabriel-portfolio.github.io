@@ -422,6 +422,13 @@ section {
   color: var(--color-grey-2);
 }
 
+.timeline .timeline-item .tl-icon img {
+    width: 50px; /* Ancho de la imagen */
+    height: 50px; /* Altura de la imagen */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Asegura que la imagen cubra todo el espacio sin deformarse */
+}
+
 .experience-tag {
   background-color: rgba(255, 255, 0, 0.3); /* Fondo blanco transparente */
   border-radius: 15px; /* Bordes redondeados */
