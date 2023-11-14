@@ -422,6 +422,37 @@ section {
   color: var(--color-grey-2);
 }
 
+.timeline .timeline-item .tl-icon img {
+    width: 50px; /* Ancho de la imagen */
+    height: 50px; /* Altura de la imagen */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Asegura que la imagen cubra todo el espacio sin deformarse */
+}
+
+.experience-tag {
+  background-color: rgba(255, 255, 0, 0.3); /* Fondo blanco transparente */
+  border-radius: 15px; /* Bordes redondeados */
+  padding: 0.2rem 0.6rem; /* Espacio interno para el texto */
+  display: inline-block; /* Hace que el span se comporte como un bloque inline */
+/*  margin-left: 0.8rem; /* Espacio entre la palabra DJANGO y el rectángulo */*/
+  font-weight: 500; /* Opcional: para texto en negrita */
+  font-size: 0.8rem;
+  color: var(--color-primary); /* Color del texto, ajusta según tu esquema de colores */
+  text-transform: uppercase;
+}
+
+.experience-expert-tag {
+  background-color: rgba(255, 0, 0, 0.3); /* Fondo blanco transparente */
+  border-radius: 15px; /* Bordes redondeados */
+  padding: 0.2rem 0.6rem; /* Espacio interno para el texto */
+  display: inline-block; /* Hace que el span se comporte como un bloque inline */
+/*  margin-left: 0.8rem; /* Espacio entre la palabra DJANGO y el rectángulo */*/
+  font-weight: 500; /* Opcional: para texto en negrita */
+  font-size: 0.8rem;
+  color: var(--color-primary); /* Color del texto, ajusta según tu esquema de colores */
+  text-transform: uppercase;
+}
+
 /*tech-toggle*/
 .tech-toggle {
   color: var(--color-grey-2);
